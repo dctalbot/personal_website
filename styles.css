@@ -11,7 +11,7 @@
 }
 
 .jumbotron {
-  background-image: url('NewYorkCityBlack.jpg');
+  background-image: url('static/NewYorkCityBlack.jpg');
   margin: 0 !important;
   height: 100vh;
 	width: 100vw;
@@ -62,7 +62,7 @@ hr {
 }
 
 #bio {
-	background-color: #434242;
+	background-color: #47494c;
 	position: center;
 	color: white;
   font-size: 14px;
@@ -83,7 +83,7 @@ hr {
 }
 
 #projects {
-	background-color: #434242;
+	background-color: #47494c;
 	color: white;
   margin-top: -20px;
   padding-bottom: 50px;
@@ -126,7 +126,7 @@ hr {
 
 
 #contact {
-	background-color: #434242;
+	background-color: #47494c;
   padding-bottom: 50px;
 }
 
@@ -160,7 +160,7 @@ td a:hover {
 
 
 footer {
-	background-image: url('NewYorkCityBlack.jpg');
+	background-image: url('static/NewYorkCityBlack.jpg');
 	height: 40px;
 	color: white;
 	font-family: 'Raleway', sans-serif;
