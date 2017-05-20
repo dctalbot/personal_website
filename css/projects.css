@@ -1,0 +1,107 @@
+
+html, body {
+  background: rgb(20,20,20);
+  height: 100%;
+  /*max-height: 100% !important;*/
+  text-rendering: optimizeLegibility;
+  cursor: cell;
+}
+
+nav {
+  font-family: 'Exo', sans-serif;
+  margin: 0 auto;
+  display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20,20,20);
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+    display: inline-block;
+    color: whitesmoke;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+  background-color: #555;
+}
+
+hr {
+  color: whitesmoke;
+  clear: both;
+}
+
+.project {
+  display: none;
+  position: relative;
+  clear: left;
+  margin-left: 15px;
+  /*top: 5px;*/
+  /*margin-top: -50px;*/
+}
+
+
+
+
+
+.project h1 {
+  font-family: 'Open Sans';
+  /*font-family: 'Exo';*/
+  color: whitesmoke;
+  /*margin-top: 10px;*/
+  padding: 0;
+  margin: 0px 15px 0px 0px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.python h1 {
+  background-image: url('../static/python.svg.png');
+}
+
+.ruby h1 {
+  background-image: url('../static/ruby.svg.png');
+}
+
+.webdev h1 {
+  background-image: url('../static/webdev.svg.png');
+}
+
+.project img {
+  padding: 0;
+  height: 200px;
+  border-radius: 1%;
+}
+
+.container {
+  display: flex;
+}
+
+.descr {
+  font-family: 'Open Sans';
+  color: white;
+  flex-grow: 1;
+  margin: 0px 100px 0px 30px;
+}
+
+#vert {
+  /*display: none;*/
+  border-radius: 50%;
+  width: 2px;
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  fill: whitesmoke;
+}
