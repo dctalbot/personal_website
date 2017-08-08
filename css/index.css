@@ -3,7 +3,6 @@ html, body {
   height: 100%;
   max-height: 100%;
   text-rendering: optimizeLegibility;
-  cursor: cell;
 }
 
 
@@ -43,11 +42,11 @@ html, body {
   color: whitesmoke;
   top: -48px;
   position: relative;
-  /*cursor: pointer;*/
+  cursor: cell;
 }
 #wrapper:hover #shape {
   stroke-width: 2px;
   stroke-dashoffset: 0;
   stroke-dasharray: 760;
-  /*cursor: pointer;*/
+  cursor: cell;
 }

@@ -1,0 +1,53 @@
+// Pinkish red
+.bg-cycle-0 {
+   background-color: #FFDDDD;
+}
+
+.bg-cycle-1 {
+   background-color: #FFEEDD;
+}
+
+// Light yellow
+.bg-cycle-2 {
+   background-color: #FFFFDD;
+}
+
+.bg-cycle-3 {
+   background-color: #EEFFDD;
+}
+
+// Light green
+.bg-cycle-4 {
+   background-color: #DDFFDD;
+}
+
+.bg-cycle-5 {
+   background-color: #DDFFEE;
+}
+
+// Sky blue
+.bg-cycle-6 {
+   background-color: #DDFFFF;
+}
+
+.bg-cycle-7 {
+   background-color: #DDEEFF;
+}
+
+// Light blue
+.bg-cycle-8 {
+   background-color: #DDDDFF;
+}
+
+.bg-cycle-9 {
+   background-color: #EEDDFF;
+}
+
+// Light magenta
+.bg-cycle-10 {
+   background-color: #FFDDFF;
+}
+
+.bg-cycle-11 {
+   background-color: #FFDDEE;
+}

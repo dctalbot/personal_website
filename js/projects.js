@@ -1,8 +1,8 @@
-function navslide() {$('#nav').slideDown("slow", pslide);}
-
-function pslide() {$('.project').slideDown();}
+function pslide() {
+  $('.project').slideDown(2000);
+}
 
 // DRIVER
 $(function() {
-  navslide();
+  pslide();
 });
